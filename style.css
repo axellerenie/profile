@@ -1,5 +1,5 @@
 body {
-  background-color: #CCCCCC;
+  background-color: #E6E6E6;
   color: #7F7F7F;
   font-family: 'Open sans', sans-serif;
   font-weight: lighter;
@@ -38,14 +38,6 @@ a:hover {
   color: #AF0015;
 }
 
-/*div {
-  background-color: rgb(245,245,245);
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 4px;
-  /*box-shadow: 2px, 2px, 2px color;*/
-/*}*/
-
 td {
   text-align: left;
   padding: 10px;
@@ -80,12 +72,12 @@ td {
 }
 
 .button {
-    background-color: #AF0015;
-    color: white;
-    padding: 15px 32px;
-    font-size: 16px;
-    border-radius: 10px;
-    margin: 20px;
+  background-color: #AF0015;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .button:hover {
@@ -97,6 +89,28 @@ td {
   padding: 20px 20px 40px 20px
 }
 
+#sidebar {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  position: fixed;
+  width: 50px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  /*border: 0.5px solid #B3B3B3;*/
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
+#padding-logo {
+  padding: 20px;
+}
 
 
 
