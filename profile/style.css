@@ -1,0 +1,102 @@
+body {
+  background-color: #CCCCCC;
+  color: #7F7F7F;
+  font-family: 'Open sans', sans-serif;
+  font-weight: lighter;
+}
+
+img {
+    max-width: 150px;
+}
+
+h1, h2, h3 {
+  color: #333333;
+  font-family: 'Marvel', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #AF0015;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #4C4C4C;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+a {
+  color: #CCCCCC;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+a:hover {
+  color: #AF0015;
+}
+
+/*div {
+  background-color: rgb(245,245,245);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 4px;
+  /*box-shadow: 2px, 2px, 2px color;*/
+/*}*/
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+.card-white {
+  background-color: rgb(245,245,245);
+  padding: 20px;
+  width: 500px;
+  margin: 20px auto;
+  border-radius: 4px;
+
+  text-align: center;
+
+}
+
+.shadow {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 0.5px solid #AF0015;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.button {
+    background-color: #AF0015;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #800000;
+}
+
+.bottom-margin {
+  padding: 20px 20px 40px 20px
+}
+
+
+
+
